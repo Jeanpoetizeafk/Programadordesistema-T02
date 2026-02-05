@@ -1,0 +1,14 @@
+C:\Users\jean.lgsantos\source\repos\testesss\bin\Debug\net8.0\testesss.exe
+C:\Users\jean.lgsantos\source\repos\testesss\bin\Debug\net8.0\testesss.deps.json
+C:\Users\jean.lgsantos\source\repos\testesss\bin\Debug\net8.0\testesss.runtimeconfig.json
+C:\Users\jean.lgsantos\source\repos\testesss\bin\Debug\net8.0\testesss.dll
+C:\Users\jean.lgsantos\source\repos\testesss\bin\Debug\net8.0\testesss.pdb
+C:\Users\jean.lgsantos\source\repos\testesss\obj\Debug\net8.0\testesss.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jean.lgsantos\source\repos\testesss\obj\Debug\net8.0\testesss.AssemblyInfoInputs.cache
+C:\Users\jean.lgsantos\source\repos\testesss\obj\Debug\net8.0\testesss.AssemblyInfo.cs
+C:\Users\jean.lgsantos\source\repos\testesss\obj\Debug\net8.0\testesss.csproj.CoreCompileInputs.cache
+C:\Users\jean.lgsantos\source\repos\testesss\obj\Debug\net8.0\testesss.dll
+C:\Users\jean.lgsantos\source\repos\testesss\obj\Debug\net8.0\refint\testesss.dll
+C:\Users\jean.lgsantos\source\repos\testesss\obj\Debug\net8.0\testesss.pdb
+C:\Users\jean.lgsantos\source\repos\testesss\obj\Debug\net8.0\testesss.genruntimeconfig.cache
+C:\Users\jean.lgsantos\source\repos\testesss\obj\Debug\net8.0\ref\testesss.dll

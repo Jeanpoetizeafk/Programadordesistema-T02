@@ -1,0 +1,14 @@
+C:\Users\jean.lgsantos\source\repos\aula 1\bin\Debug\net8.0\aula 1.exe
+C:\Users\jean.lgsantos\source\repos\aula 1\bin\Debug\net8.0\aula 1.deps.json
+C:\Users\jean.lgsantos\source\repos\aula 1\bin\Debug\net8.0\aula 1.runtimeconfig.json
+C:\Users\jean.lgsantos\source\repos\aula 1\bin\Debug\net8.0\aula 1.dll
+C:\Users\jean.lgsantos\source\repos\aula 1\bin\Debug\net8.0\aula 1.pdb
+C:\Users\jean.lgsantos\source\repos\aula 1\obj\Debug\net8.0\aula 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jean.lgsantos\source\repos\aula 1\obj\Debug\net8.0\aula 1.AssemblyInfoInputs.cache
+C:\Users\jean.lgsantos\source\repos\aula 1\obj\Debug\net8.0\aula 1.AssemblyInfo.cs
+C:\Users\jean.lgsantos\source\repos\aula 1\obj\Debug\net8.0\aula 1.csproj.CoreCompileInputs.cache
+C:\Users\jean.lgsantos\source\repos\aula 1\obj\Debug\net8.0\aula 1.dll
+C:\Users\jean.lgsantos\source\repos\aula 1\obj\Debug\net8.0\refint\aula 1.dll
+C:\Users\jean.lgsantos\source\repos\aula 1\obj\Debug\net8.0\aula 1.pdb
+C:\Users\jean.lgsantos\source\repos\aula 1\obj\Debug\net8.0\aula 1.genruntimeconfig.cache
+C:\Users\jean.lgsantos\source\repos\aula 1\obj\Debug\net8.0\ref\aula 1.dll
