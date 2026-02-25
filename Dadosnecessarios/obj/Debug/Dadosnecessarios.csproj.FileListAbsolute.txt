@@ -1,0 +1,10 @@
+C:\Users\jean.lgsantos\source\repos\Dadosnecessarios\bin\Debug\Dadosnecessarios.exe.config
+C:\Users\jean.lgsantos\source\repos\Dadosnecessarios\bin\Debug\Dadosnecessarios.exe
+C:\Users\jean.lgsantos\source\repos\Dadosnecessarios\bin\Debug\Dadosnecessarios.pdb
+C:\Users\jean.lgsantos\source\repos\Dadosnecessarios\obj\Debug\Dadosnecessarios.csproj.AssemblyReference.cache
+C:\Users\jean.lgsantos\source\repos\Dadosnecessarios\obj\Debug\Dadosnecessarios.frmFormularioSimples.resources
+C:\Users\jean.lgsantos\source\repos\Dadosnecessarios\obj\Debug\Dadosnecessarios.Properties.Resources.resources
+C:\Users\jean.lgsantos\source\repos\Dadosnecessarios\obj\Debug\Dadosnecessarios.csproj.GenerateResource.cache
+C:\Users\jean.lgsantos\source\repos\Dadosnecessarios\obj\Debug\Dadosnecessarios.csproj.CoreCompileInputs.cache
+C:\Users\jean.lgsantos\source\repos\Dadosnecessarios\obj\Debug\Dadosnecessarios.exe
+C:\Users\jean.lgsantos\source\repos\Dadosnecessarios\obj\Debug\Dadosnecessarios.pdb

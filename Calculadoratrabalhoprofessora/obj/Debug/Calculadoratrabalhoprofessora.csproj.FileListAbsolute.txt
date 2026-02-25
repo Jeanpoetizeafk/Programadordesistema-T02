@@ -1,0 +1,11 @@
+C:\Users\jean.lgsantos\source\repos\Calculadoratrabalhoprofessora\bin\Debug\Calculadoratrabalhoprofessora.exe.config
+C:\Users\jean.lgsantos\source\repos\Calculadoratrabalhoprofessora\bin\Debug\Calculadoratrabalhoprofessora.exe
+C:\Users\jean.lgsantos\source\repos\Calculadoratrabalhoprofessora\bin\Debug\Calculadoratrabalhoprofessora.pdb
+C:\Users\jean.lgsantos\source\repos\Calculadoratrabalhoprofessora\obj\Debug\Calculadoratrabalhoprofessora.csproj.AssemblyReference.cache
+C:\Users\jean.lgsantos\source\repos\Calculadoratrabalhoprofessora\obj\Debug\Calculadoratrabalhoprofessora.Form1.resources
+C:\Users\jean.lgsantos\source\repos\Calculadoratrabalhoprofessora\obj\Debug\Calculadoratrabalhoprofessora.Properties.Resources.resources
+C:\Users\jean.lgsantos\source\repos\Calculadoratrabalhoprofessora\obj\Debug\Calculadoratrabalhoprofessora.csproj.GenerateResource.cache
+C:\Users\jean.lgsantos\source\repos\Calculadoratrabalhoprofessora\obj\Debug\Calculadoratrabalhoprofessora.csproj.CoreCompileInputs.cache
+C:\Users\jean.lgsantos\source\repos\Calculadoratrabalhoprofessora\obj\Debug\Calculadoratrabalhoprofessora.exe
+C:\Users\jean.lgsantos\source\repos\Calculadoratrabalhoprofessora\obj\Debug\Calculadoratrabalhoprofessora.pdb
+C:\Users\jean.lgsantos\source\repos\Calculadoratrabalhoprofessora\obj\Debug\Calculadoratrabalhoprofessora.exe.config

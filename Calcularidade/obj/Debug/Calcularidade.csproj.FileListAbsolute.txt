@@ -1,0 +1,11 @@
+C:\Users\jean.lgsantos\source\repos\Calcularidade\bin\Debug\Calcularidade.exe.config
+C:\Users\jean.lgsantos\source\repos\Calcularidade\bin\Debug\Calcularidade.exe
+C:\Users\jean.lgsantos\source\repos\Calcularidade\bin\Debug\Calcularidade.pdb
+C:\Users\jean.lgsantos\source\repos\Calcularidade\obj\Debug\Calcularidade.csproj.AssemblyReference.cache
+C:\Users\jean.lgsantos\source\repos\Calcularidade\obj\Debug\Calcularidade.Form1.resources
+C:\Users\jean.lgsantos\source\repos\Calcularidade\obj\Debug\Calcularidade.Properties.Resources.resources
+C:\Users\jean.lgsantos\source\repos\Calcularidade\obj\Debug\Calcularidade.csproj.GenerateResource.cache
+C:\Users\jean.lgsantos\source\repos\Calcularidade\obj\Debug\Calcularidade.csproj.CoreCompileInputs.cache
+C:\Users\jean.lgsantos\source\repos\Calcularidade\obj\Debug\Calcularidade.exe
+C:\Users\jean.lgsantos\source\repos\Calcularidade\obj\Debug\Calcularidade.pdb
+C:\Users\jean.lgsantos\source\repos\Calcularidade\obj\Debug\Calcularidade.exe.config
