@@ -1,0 +1,11 @@
+C:\Users\jean.lgsantos\source\repos\QuantidadeDeEstoque\bin\Debug\QuantidadeDeEstoque.exe.config
+C:\Users\jean.lgsantos\source\repos\QuantidadeDeEstoque\bin\Debug\QuantidadeDeEstoque.exe
+C:\Users\jean.lgsantos\source\repos\QuantidadeDeEstoque\bin\Debug\QuantidadeDeEstoque.pdb
+C:\Users\jean.lgsantos\source\repos\QuantidadeDeEstoque\obj\Debug\QuantidadeDeEstoque.csproj.AssemblyReference.cache
+C:\Users\jean.lgsantos\source\repos\QuantidadeDeEstoque\obj\Debug\QuantidadeDeEstoque.Form1.resources
+C:\Users\jean.lgsantos\source\repos\QuantidadeDeEstoque\obj\Debug\QuantidadeDeEstoque.Properties.Resources.resources
+C:\Users\jean.lgsantos\source\repos\QuantidadeDeEstoque\obj\Debug\QuantidadeDeEstoque.csproj.GenerateResource.cache
+C:\Users\jean.lgsantos\source\repos\QuantidadeDeEstoque\obj\Debug\QuantidadeDeEstoque.csproj.CoreCompileInputs.cache
+C:\Users\jean.lgsantos\source\repos\QuantidadeDeEstoque\obj\Debug\QuantidadeDeEstoque.exe
+C:\Users\jean.lgsantos\source\repos\QuantidadeDeEstoque\obj\Debug\QuantidadeDeEstoque.pdb
+C:\Users\jean.lgsantos\source\repos\QuantidadeDeEstoque\obj\Debug\QuantidadeDeEstoque.exe.config
