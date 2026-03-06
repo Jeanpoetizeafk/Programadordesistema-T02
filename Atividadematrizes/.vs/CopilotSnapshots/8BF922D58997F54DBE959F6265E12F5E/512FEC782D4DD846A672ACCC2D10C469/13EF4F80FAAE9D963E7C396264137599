@@ -1,0 +1,112 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Atividadematrizes
+{
+    public partial class Form1 : Form
+    {
+        // Matriz 3x3
+        private int[,] matriz = new int[3, 3];
+
+        // Flag para saber se a matriz foi preenchida
+        private bool matrizPreenchida = false;
+
+        // Random de instância para evitar repetição de seed
+        private Random rnd = new Random();
+
+        public Form1()
+        {
+            InitializeComponent();
+            // Desabilita o botão de somar até a matriz ser preenchida
+            btnSomar.Enabled = false;
+            // Não permitir que o usuário adicione linhas vazias
+            dgvMatriz.AllowUserToAddRows = false;
+            dgvMatriz.ReadOnly = true;
+        }
+
+
+        // Evento do botão "Preencher Matriz"
+        private void btnPreencher_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Preenche a matriz com valores aleatórios de 1 a 9
+                for (int i = 0; i < 3; i++)
+                {
+                    for (int j = 0; j < 3; j++)
+                    {
+                        matriz[i, j] = rnd.Next(1, 10);
+                    }
+                }
+
+                ExibirMatriz();
+
+                // Marca que a matriz foi preenchida e habilita o botão Somar
+                matrizPreenchida = true;
+                btnSomar.Enabled = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao preencher a matriz: " + ex.Message);
+            }
+        }
+
+        // Evento do botão "Somar Elementos"
+        private void btnSomar_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                if (!matrizPreenchida)
+                {
+                    MessageBox.Show("Matriz não preenchida. Clique em 'Preencher Matriz' primeiro.");
+                    return;
+                }
+
+                int soma = 0;
+                foreach (int valor in matriz)
+                {
+                    soma += valor;
+                }
+
+                MessageBox.Show($"Soma dos elementos: {soma}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao somar elementos: " + ex.Message);
+            }
+        }
+
+        // Método para exibir a matriz no DataGridView
+        private void ExibirMatriz()
+        {
+            dgvMatriz.Rows.Clear();
+            dgvMatriz.Columns.Clear();
+
+            // Cria colunas
+            for (int j = 0; j < 3; j++)
+            {
+                dgvMatriz.Columns.Add($"Col{j}", $"Col {j + 1}");
+            }
+
+            // Adiciona linhas
+            for (int i = 0; i < 3; i++)
+            {
+                object[] linha = new object[3];
+                for (int j = 0; j < 3; j++)
+                {
+                    linha[j] = matriz[i, j];
+                }
+                dgvMatriz.Rows.Add(linha);
+            }
+
+        }
+    }
+}

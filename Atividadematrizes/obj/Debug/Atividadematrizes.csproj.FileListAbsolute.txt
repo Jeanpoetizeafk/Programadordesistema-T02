@@ -1,0 +1,11 @@
+C:\Users\jean.lgsantos\source\repos\Atividadematrizes\bin\Debug\Atividadematrizes.exe.config
+C:\Users\jean.lgsantos\source\repos\Atividadematrizes\bin\Debug\Atividadematrizes.exe
+C:\Users\jean.lgsantos\source\repos\Atividadematrizes\bin\Debug\Atividadematrizes.pdb
+C:\Users\jean.lgsantos\source\repos\Atividadematrizes\obj\Debug\Atividadematrizes.csproj.AssemblyReference.cache
+C:\Users\jean.lgsantos\source\repos\Atividadematrizes\obj\Debug\Atividadematrizes.Form1.resources
+C:\Users\jean.lgsantos\source\repos\Atividadematrizes\obj\Debug\Atividadematrizes.Properties.Resources.resources
+C:\Users\jean.lgsantos\source\repos\Atividadematrizes\obj\Debug\Atividadematrizes.csproj.GenerateResource.cache
+C:\Users\jean.lgsantos\source\repos\Atividadematrizes\obj\Debug\Atividadematrizes.csproj.CoreCompileInputs.cache
+C:\Users\jean.lgsantos\source\repos\Atividadematrizes\obj\Debug\Atividadematrizes.exe
+C:\Users\jean.lgsantos\source\repos\Atividadematrizes\obj\Debug\Atividadematrizes.pdb
+C:\Users\jean.lgsantos\source\repos\Atividadematrizes\obj\Debug\Atividadematrizes.exe.config
