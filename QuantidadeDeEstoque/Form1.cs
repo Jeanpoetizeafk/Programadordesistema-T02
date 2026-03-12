@@ -24,12 +24,16 @@ namespace QuantidadeDeEstoque
         {
             int quantidade;
             // Verifica se o valor digitado é um número válido
+
             if (int.TryParse(txtQuantidade.Text, out quantidade))
+
+            // Código executado se a condição for verdadeira
             {
                 if (quantidade < 5)
                 {
                     lblResultado.Text = "Alerta: Baixo estoque. Por favor, reabasteça este produto.";
                 }
+                // Código executado se a condição for falsa
                 else
                 {
                     lblResultado.Text = "Estoque suficiente.";

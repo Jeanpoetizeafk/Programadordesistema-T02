@@ -1,0 +1,11 @@
+C:\Users\jean.lgsantos\source\repos\modelodemenu\bin\Debug\modelodemenu.exe.config
+C:\Users\jean.lgsantos\source\repos\modelodemenu\bin\Debug\modelodemenu.exe
+C:\Users\jean.lgsantos\source\repos\modelodemenu\bin\Debug\modelodemenu.pdb
+C:\Users\jean.lgsantos\source\repos\modelodemenu\obj\Debug\modelodemenu.csproj.AssemblyReference.cache
+C:\Users\jean.lgsantos\source\repos\modelodemenu\obj\Debug\modelodemenu.Form1.resources
+C:\Users\jean.lgsantos\source\repos\modelodemenu\obj\Debug\modelodemenu.Properties.Resources.resources
+C:\Users\jean.lgsantos\source\repos\modelodemenu\obj\Debug\modelodemenu.csproj.GenerateResource.cache
+C:\Users\jean.lgsantos\source\repos\modelodemenu\obj\Debug\modelodemenu.csproj.CoreCompileInputs.cache
+C:\Users\jean.lgsantos\source\repos\modelodemenu\obj\Debug\modelodemenu.exe
+C:\Users\jean.lgsantos\source\repos\modelodemenu\obj\Debug\modelodemenu.pdb
+C:\Users\jean.lgsantos\source\repos\modelodemenu\obj\Debug\modelodemenu.exe.config

@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace classeheranca
+{
+    // Classe base (superclasse)
+    internal class Animal
+    {
+        // propriedade da classe animal
+        public string Nome { get; set; }
+
+        // metodo que sera sobrecarregado nas classes derivadas
+        public virtual void EmitirSom()
+        {
+            Console.WriteLine("O animal emite um som.");
+        }
+    }
+
+    // classe derivada (subclasse)
+    internal class Cachorra : Animal
+    {
+        // sobrescrevendo o metodo EmitirSom
+        public override void EmitirSom()
+        {
+            Console.WriteLine("A cachorra late: Au Au!");
+        }
+    }
+
+    // Outra classe derivada
+    internal class Gato : Animal
+    {
+        // sobrescrevendo o metodo EmitirSom
+        public override void EmitirSom()
+        {
+            Console.WriteLine("O gato mia: Miau!");
+        }
+    }
+
+    // Programa de exemplo
+    internal class Program
+    {
+        private static void Main(string[] args)
+        {
+            var animais = new List<Animal>
+            {
+                new Cachorra { Nome = "Luna" },
+                new Gato { Nome = "Mimi" },
+                new Animal { Nome = "Bicho" }
+            };
+
+            foreach (var a in animais)
+            {
+                Console.Write($"{a.Nome}: ");
+                a.EmitirSom();
+            }
+        }
+    }
+}

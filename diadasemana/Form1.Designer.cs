@@ -37,26 +37,28 @@
             // lblNumeros
             // 
             this.lblNumeros.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumeros.Location = new System.Drawing.Point(156, 9);
+            this.lblNumeros.Location = new System.Drawing.Point(156, 25);
             this.lblNumeros.Name = "lblNumeros";
             this.lblNumeros.Size = new System.Drawing.Size(478, 59);
             this.lblNumeros.TabIndex = 0;
-            this.lblNumeros.Text = "Convensor de Numeros Em Dias Semanais";
+            this.lblNumeros.Text = "Convensor de Nome da Semana em dia util ou fim de semana";
+            this.lblNumeros.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtDia
             // 
             this.txtDia.Font = new System.Drawing.Font("Century", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDia.Location = new System.Drawing.Point(265, 101);
+            this.txtDia.Location = new System.Drawing.Point(224, 107);
             this.txtDia.Name = "txtDia";
-            this.txtDia.Size = new System.Drawing.Size(261, 30);
+            this.txtDia.Size = new System.Drawing.Size(343, 30);
             this.txtDia.TabIndex = 1;
-            this.txtDia.Text = "Insira o Dia da Semana";
+            this.txtDia.Text = "Insira o nome do Dia da Semana";
             this.txtDia.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtDia.TextChanged += new System.EventHandler(this.txtDia_TextChanged);
             // 
             // btnVerificardiasemana
             // 
             this.btnVerificardiasemana.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerificardiasemana.Location = new System.Drawing.Point(265, 148);
+            this.btnVerificardiasemana.Location = new System.Drawing.Point(265, 160);
             this.btnVerificardiasemana.Name = "btnVerificardiasemana";
             this.btnVerificardiasemana.Size = new System.Drawing.Size(261, 31);
             this.btnVerificardiasemana.TabIndex = 2;
@@ -68,7 +70,7 @@
             // 
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(337, 215);
+            this.label1.Location = new System.Drawing.Point(337, 214);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(116, 44);
             this.label1.TabIndex = 3;

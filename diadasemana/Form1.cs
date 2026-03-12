@@ -34,9 +34,14 @@ namespace diadasemana
                     label1.Text = "É um fim de semana.";
                     break;
                 default:
-                    MessageBox.Show("Por favor, digite um dia da semana válido.");
+                    MessageBox.Show("Por favor, digite um nome da semana válido.");
                     break;
             }
+        }
+
+        private void txtDia_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
     
