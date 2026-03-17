@@ -1,0 +1,12 @@
+C:\Users\jean.lgsantos\source\repos\tenstandoshandon\bin\Debug\tenstandoshandon.exe.config
+C:\Users\jean.lgsantos\source\repos\tenstandoshandon\bin\Debug\tenstandoshandon.exe
+C:\Users\jean.lgsantos\source\repos\tenstandoshandon\bin\Debug\tenstandoshandon.pdb
+C:\Users\jean.lgsantos\source\repos\tenstandoshandon\obj\Debug\tenstandoshandon.csproj.AssemblyReference.cache
+C:\Users\jean.lgsantos\source\repos\tenstandoshandon\obj\Debug\tenstandoshandon.Properties.Resources.resources
+C:\Users\jean.lgsantos\source\repos\tenstandoshandon\obj\Debug\tenstandoshandon.csproj.GenerateResource.cache
+C:\Users\jean.lgsantos\source\repos\tenstandoshandon\obj\Debug\tenstandoshandon.csproj.CoreCompileInputs.cache
+C:\Users\jean.lgsantos\source\repos\tenstandoshandon\obj\Debug\tenstandoshandon.exe
+C:\Users\jean.lgsantos\source\repos\tenstandoshandon\obj\Debug\tenstandoshandon.pdb
+C:\Users\jean.lgsantos\source\repos\tenstandoshandon\obj\Debug\tenstandoshandon.exe.config
+C:\Users\jean.lgsantos\source\repos\tenstandoshandon\obj\Debug\Testando_showhide.frmShowHide.resources
+C:\Users\jean.lgsantos\source\repos\tenstandoshandon\obj\Debug\Testando_showhide.frmHome.resources
