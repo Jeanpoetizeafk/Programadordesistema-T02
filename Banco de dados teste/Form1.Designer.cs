@@ -29,58 +29,62 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.lblTipodeacesso = new System.Windows.Forms.Label();
+            this.btnCadastrarFuncionario = new System.Windows.Forms.Button();
             this.txtCodigoUsuario = new System.Windows.Forms.TextBox();
-            this.lblSenha = new System.Windows.Forms.Label();
-            this.lblCodigousuario = new System.Windows.Forms.Label();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
-            this.lblTelefone = new System.Windows.Forms.Label();
-            this.lblCargo = new System.Windows.Forms.Label();
-            this.txtCargo = new System.Windows.Forms.TextBox();
+            this.lblEmail = new System.Windows.Forms.Label();
+            this.txtCPF = new System.Windows.Forms.TextBox();
+            this.lblCPF = new System.Windows.Forms.Label();
+            this.lblID = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.lblNomecompleto = new System.Windows.Forms.Label();
             this.txtNomeCompleto = new System.Windows.Forms.TextBox();
             this.lblCadastra = new System.Windows.Forms.Label();
-            this.lblConfimarsenha = new System.Windows.Forms.Label();
-            this.txtConfirmarSenha = new System.Windows.Forms.TextBox();
-            this.btnConfirmar = new System.Windows.Forms.Button();
-            this.lblTipodeacesso = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.comboBox1);
-            this.panel1.Controls.Add(this.lblTipodeacesso);
-            this.panel1.Controls.Add(this.btnConfirmar);
-            this.panel1.Controls.Add(this.txtConfirmarSenha);
-            this.panel1.Controls.Add(this.lblConfimarsenha);
-            this.panel1.Controls.Add(this.txtSenha);
-            this.panel1.Controls.Add(this.txtCodigoUsuario);
-            this.panel1.Controls.Add(this.lblSenha);
-            this.panel1.Controls.Add(this.lblCodigousuario);
             this.panel1.Controls.Add(this.txtTelefone);
-            this.panel1.Controls.Add(this.lblTelefone);
-            this.panel1.Controls.Add(this.lblCargo);
-            this.panel1.Controls.Add(this.txtCargo);
+            this.panel1.Controls.Add(this.lblTipodeacesso);
+            this.panel1.Controls.Add(this.btnCadastrarFuncionario);
+            this.panel1.Controls.Add(this.txtCodigoUsuario);
+            this.panel1.Controls.Add(this.lblEmail);
+            this.panel1.Controls.Add(this.txtCPF);
+            this.panel1.Controls.Add(this.lblCPF);
+            this.panel1.Controls.Add(this.lblID);
+            this.panel1.Controls.Add(this.txtID);
             this.panel1.Controls.Add(this.lblNomecompleto);
             this.panel1.Controls.Add(this.txtNomeCompleto);
             this.panel1.Controls.Add(this.lblCadastra);
             this.panel1.Location = new System.Drawing.Point(196, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(418, 571);
+            this.panel1.Size = new System.Drawing.Size(418, 462);
             this.panel1.TabIndex = 0;
             // 
-            // txtSenha
+            // lblTipodeacesso
             // 
-            this.txtSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
-            this.txtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(134)))));
-            this.txtSenha.Location = new System.Drawing.Point(15, 357);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(390, 38);
-            this.txtSenha.TabIndex = 18;
+            this.lblTipodeacesso.AutoSize = true;
+            this.lblTipodeacesso.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTipodeacesso.ForeColor = System.Drawing.Color.White;
+            this.lblTipodeacesso.Location = new System.Drawing.Point(251, 138);
+            this.lblTipodeacesso.Name = "lblTipodeacesso";
+            this.lblTipodeacesso.Size = new System.Drawing.Size(69, 21);
+            this.lblTipodeacesso.TabIndex = 23;
+            this.lblTipodeacesso.Text = "Telefone";
+            // 
+            // btnCadastrarFuncionario
+            // 
+            this.btnCadastrarFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(217)))), ((int)(((byte)(95)))));
+            this.btnCadastrarFuncionario.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrarFuncionario.Location = new System.Drawing.Point(89, 372);
+            this.btnCadastrarFuncionario.Name = "btnCadastrarFuncionario";
+            this.btnCadastrarFuncionario.Size = new System.Drawing.Size(252, 32);
+            this.btnCadastrarFuncionario.TabIndex = 22;
+            this.btnCadastrarFuncionario.Text = "Cadastrar Funcionário";
+            this.btnCadastrarFuncionario.UseVisualStyleBackColor = false;
             // 
             // txtCodigoUsuario
             // 
@@ -92,69 +96,58 @@
             this.txtCodigoUsuario.Size = new System.Drawing.Size(390, 38);
             this.txtCodigoUsuario.TabIndex = 16;
             // 
-            // lblSenha
+            // lblEmail
             // 
-            this.lblSenha.AutoSize = true;
-            this.lblSenha.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSenha.ForeColor = System.Drawing.Color.White;
-            this.lblSenha.Location = new System.Drawing.Point(20, 333);
-            this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(53, 21);
-            this.lblSenha.TabIndex = 15;
-            this.lblSenha.Text = "Senha";
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.ForeColor = System.Drawing.Color.White;
+            this.lblEmail.Location = new System.Drawing.Point(18, 268);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(48, 21);
+            this.lblEmail.TabIndex = 14;
+            this.lblEmail.Text = "Email";
             // 
-            // lblCodigousuario
+            // txtCPF
             // 
-            this.lblCodigousuario.AutoSize = true;
-            this.lblCodigousuario.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodigousuario.ForeColor = System.Drawing.Color.White;
-            this.lblCodigousuario.Location = new System.Drawing.Point(18, 268);
-            this.lblCodigousuario.Name = "lblCodigousuario";
-            this.lblCodigousuario.Size = new System.Drawing.Size(118, 21);
-            this.lblCodigousuario.TabIndex = 14;
-            this.lblCodigousuario.Text = "Código Usuário";
+            this.txtCPF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.txtCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCPF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(134)))));
+            this.txtCPF.Location = new System.Drawing.Point(15, 227);
+            this.txtCPF.Name = "txtCPF";
+            this.txtCPF.Size = new System.Drawing.Size(390, 38);
+            this.txtCPF.TabIndex = 13;
             // 
-            // txtTelefone
+            // lblCPF
             // 
-            this.txtTelefone.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
-            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(134)))));
-            this.txtTelefone.Location = new System.Drawing.Point(15, 227);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(390, 38);
-            this.txtTelefone.TabIndex = 13;
+            this.lblCPF.AutoSize = true;
+            this.lblCPF.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCPF.ForeColor = System.Drawing.Color.White;
+            this.lblCPF.Location = new System.Drawing.Point(18, 203);
+            this.lblCPF.Name = "lblCPF";
+            this.lblCPF.Size = new System.Drawing.Size(37, 21);
+            this.lblCPF.TabIndex = 12;
+            this.lblCPF.Text = "CPF";
             // 
-            // lblTelefone
+            // lblID
             // 
-            this.lblTelefone.AutoSize = true;
-            this.lblTelefone.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefone.ForeColor = System.Drawing.Color.White;
-            this.lblTelefone.Location = new System.Drawing.Point(18, 203);
-            this.lblTelefone.Name = "lblTelefone";
-            this.lblTelefone.Size = new System.Drawing.Size(69, 21);
-            this.lblTelefone.TabIndex = 12;
-            this.lblTelefone.Text = "Telefone";
+            this.lblID.AutoSize = true;
+            this.lblID.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblID.ForeColor = System.Drawing.Color.White;
+            this.lblID.Location = new System.Drawing.Point(20, 138);
+            this.lblID.Name = "lblID";
+            this.lblID.Size = new System.Drawing.Size(25, 21);
+            this.lblID.TabIndex = 7;
+            this.lblID.Text = "ID";
             // 
-            // lblCargo
+            // txtID
             // 
-            this.lblCargo.AutoSize = true;
-            this.lblCargo.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCargo.ForeColor = System.Drawing.Color.White;
-            this.lblCargo.Location = new System.Drawing.Point(20, 138);
-            this.lblCargo.Name = "lblCargo";
-            this.lblCargo.Size = new System.Drawing.Size(52, 21);
-            this.lblCargo.TabIndex = 7;
-            this.lblCargo.Text = "Cargo";
-            // 
-            // txtCargo
-            // 
-            this.txtCargo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
-            this.txtCargo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCargo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(134)))));
-            this.txtCargo.Location = new System.Drawing.Point(15, 162);
-            this.txtCargo.Name = "txtCargo";
-            this.txtCargo.Size = new System.Drawing.Size(150, 38);
-            this.txtCargo.TabIndex = 6;
+            this.txtID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.txtID.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(134)))));
+            this.txtID.Location = new System.Drawing.Point(15, 162);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(150, 38);
+            this.txtID.TabIndex = 6;
             // 
             // lblNomecompleto
             // 
@@ -183,62 +176,19 @@
             this.lblCadastra.Font = new System.Drawing.Font("Segoe UI Symbol", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCadastra.Location = new System.Drawing.Point(116, 27);
             this.lblCadastra.Name = "lblCadastra";
-            this.lblCadastra.Size = new System.Drawing.Size(180, 25);
+            this.lblCadastra.Size = new System.Drawing.Size(182, 25);
             this.lblCadastra.TabIndex = 0;
-            this.lblCadastra.Text = "Cadrastra Usuario";
+            this.lblCadastra.Text = "Cadrastrar Cliente";
             // 
-            // lblConfimarsenha
+            // txtTelefone
             // 
-            this.lblConfimarsenha.AutoSize = true;
-            this.lblConfimarsenha.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConfimarsenha.ForeColor = System.Drawing.Color.White;
-            this.lblConfimarsenha.Location = new System.Drawing.Point(19, 398);
-            this.lblConfimarsenha.Name = "lblConfimarsenha";
-            this.lblConfimarsenha.Size = new System.Drawing.Size(128, 21);
-            this.lblConfimarsenha.TabIndex = 20;
-            this.lblConfimarsenha.Text = "Confirmar Senha";
-            // 
-            // txtConfirmarSenha
-            // 
-            this.txtConfirmarSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
-            this.txtConfirmarSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConfirmarSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(134)))));
-            this.txtConfirmarSenha.Location = new System.Drawing.Point(15, 422);
-            this.txtConfirmarSenha.Name = "txtConfirmarSenha";
-            this.txtConfirmarSenha.Size = new System.Drawing.Size(390, 38);
-            this.txtConfirmarSenha.TabIndex = 21;
-            // 
-            // btnConfirmar
-            // 
-            this.btnConfirmar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(217)))), ((int)(((byte)(95)))));
-            this.btnConfirmar.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirmar.Location = new System.Drawing.Point(82, 488);
-            this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(252, 32);
-            this.btnConfirmar.TabIndex = 22;
-            this.btnConfirmar.Text = "Confirmar";
-            this.btnConfirmar.UseVisualStyleBackColor = false;
-            // 
-            // lblTipodeacesso
-            // 
-            this.lblTipodeacesso.AutoSize = true;
-            this.lblTipodeacesso.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipodeacesso.ForeColor = System.Drawing.Color.White;
-            this.lblTipodeacesso.Location = new System.Drawing.Point(292, 138);
-            this.lblTipodeacesso.Name = "lblTipodeacesso";
-            this.lblTipodeacesso.Size = new System.Drawing.Size(113, 21);
-            this.lblTipodeacesso.TabIndex = 23;
-            this.lblTipodeacesso.Text = "Tipo de Acesso";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(255, 162);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(150, 21);
-            this.comboBox1.TabIndex = 24;
-            this.comboBox1.Text = "Selecione";
+            this.txtTelefone.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
+            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(134)))));
+            this.txtTelefone.Location = new System.Drawing.Point(255, 162);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(150, 38);
+            this.txtTelefone.TabIndex = 24;
             // 
             // Form1
             // 
@@ -259,20 +209,16 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox txtNomeCompleto;
         private System.Windows.Forms.Label lblCadastra;
-        private System.Windows.Forms.Label lblSenha;
-        private System.Windows.Forms.Label lblCodigousuario;
-        private System.Windows.Forms.TextBox txtTelefone;
-        private System.Windows.Forms.Label lblTelefone;
-        private System.Windows.Forms.Label lblCargo;
-        private System.Windows.Forms.TextBox txtCargo;
+        private System.Windows.Forms.Label lblEmail;
+        private System.Windows.Forms.TextBox txtCPF;
+        private System.Windows.Forms.Label lblCPF;
+        private System.Windows.Forms.Label lblID;
+        private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Label lblNomecompleto;
-        private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.TextBox txtCodigoUsuario;
-        private System.Windows.Forms.Label lblConfimarsenha;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label lblTipodeacesso;
-        private System.Windows.Forms.Button btnConfirmar;
-        private System.Windows.Forms.TextBox txtConfirmarSenha;
+        private System.Windows.Forms.Button btnCadastrarFuncionario;
+        private System.Windows.Forms.TextBox txtTelefone;
     }
 }
 
